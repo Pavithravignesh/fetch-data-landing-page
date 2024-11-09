@@ -13,10 +13,10 @@ export default function Home() {
       <Section>
         <Container>
           <Hero />
-          <FeatureSet />
+          {/* <FeatureSet />
           <FeatureLeft />
           <FeatureRight />
-          <FeatureLeftTwo />
+          <FeatureLeftTwo /> */}
           {/* <CTA /> */}
           {/* <Footer /> */}
         </Container>

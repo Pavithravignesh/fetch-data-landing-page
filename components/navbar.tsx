@@ -29,17 +29,17 @@ export function NavBar() {
                         </SheetHeader>
                         <div className="flex flex-col space-y-3 mt-[1rem] z-[99]">
                             <DialogClose asChild>
-                                <Link href="/">
+                                <Link href="https://medium.com/@pavithravignesh027">
                                     <Button variant="outline" className="w-full">Medium</Button>
                                 </Link>
                             </DialogClose>
                             <DialogClose asChild>
-                                <Link href="/automation">
+                                <Link href="https://www.linkedin.com/in/pavithravignesh-sathasivam-06b140216/">
                                     <Button variant="outline" className="w-full">LinkedIn</Button>
                                 </Link>
                             </DialogClose>
                             <DialogClose asChild>
-                                <Link href="/software">
+                                <Link href="https://github.com/Pavithravignesh/useFetchData">
                                     <Button variant="outline" className="w-full">Git</Button>
                                 </Link>
                             </DialogClose>
@@ -55,13 +55,13 @@ export function NavBar() {
                     </NavigationMenuList>
                 </NavigationMenu>
                 <div className="flex items-center gap-2 max-[825px]:hidden">
-                    <Link href="/software">
+                    <Link href="https://medium.com/@pavithravignesh027">
                         <Button variant="ghost">Medium</Button>
                     </Link>
-                    <Link href="/projects">
+                    <Link href="https://www.linkedin.com/in/pavithravignesh-sathasivam-06b140216/">
                         <Button variant="ghost">LinkedIn</Button>
                     </Link>
-                    <Link href="/automation">
+                    <Link href="https://github.com/Pavithravignesh/useFetchData">
                         <Button variant="ghost">Git</Button>
                     </Link>
                     <ModeToggle />
