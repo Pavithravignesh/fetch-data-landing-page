@@ -89,7 +89,7 @@ const Hero = () => {
           <br />
           <h2>
             <Balancer>
-              It's either isLoading or revaildation:
+              It&#39;s either isLoading or revaildation:
             </Balancer>
           </h2>
           <h3 className="text-muted-foreground">
